@@ -19,7 +19,7 @@ header
 
 .global-nav__mobile-hamburger
 {
-	margin-top: 12px;
+	margin-top: 10px;
 	justify-content: center;
 	display: inline-block;
 	cursor: pointer;
