@@ -1,0 +1,159 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body 
+{
+	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+a:checked {
+
+	color: black;
+}
+
+header {
+	margin-top: 20px;
+}
+
+.wrapper
+{
+	max-width: 900px;
+	margin: auto;
+}
+
+.flex-container
+{
+	resize: horizontal;
+	overflow: hidden;
+	display: flex;
+}
+.global-heading
+{
+	display: flex;
+	font-size: 70px;
+	letter-spacing: 20px;
+	text-transform: uppercase;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.global-nav__list
+{
+	display: flex;
+	list-style: none;
+}	
+
+.global-nav__list-element
+{
+	flex: initial;
+	min-width: 0;
+	margin-right: 30px;
+}
+
+@media only screen and (max-width: 360px) {
+	header
+	{
+		margin-top: 5px;
+	}
+
+	.wrapper
+	{
+		max-width: 300px;
+		margin: auto;
+	}
+
+	.global-heading
+	{
+		padding-left: 20px;
+		font-size: 18px;
+	}
+
+	.global-nav__desktop
+	{
+		display: none;
+	}
+
+}
+
+
+@media only screen and (min-width: 360px) {
+	header
+	{
+		margin-top: 0;
+	}
+
+	.wrapper
+	{
+		max-width: 360px;
+		margin: auto;
+	}
+
+	.global-heading
+	{
+		padding-left: 25px;
+		font-size: 30px;
+	}
+
+	.global-nav__desktop
+	{
+		display: none;
+	}
+	
+}
+
+@media only screen and (min-width: 760px) {
+	header
+	{
+		margin-top: 20px;
+	}
+
+	.wrapper
+	{
+	max-width: 1200px;
+	margin: auto;
+	}
+
+	.global-heading
+	{
+		font-size: 50px;
+	}
+
+	.global-nav__desktop
+	{
+		display: block;
+	}
+
+	.global-nav__mobile
+	{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.wrapper
+	{
+	max-width: 1024px;
+	margin: auto;
+	}
+
+	.global-heading
+	{
+		font-size: 70px;
+	}
+}
+
+
