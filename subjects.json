@@ -1,0 +1,14 @@
+{
+    "subjects": [
+        {
+            "name": "Math",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "IT",
+            "startTime": 955,
+            "endTime": 1040
+        }   
+    ]
+}
