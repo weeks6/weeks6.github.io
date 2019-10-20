@@ -1,0 +1,196 @@
+body {
+    font-family: 'Roboto Slab', serif !important; 
+}
+
+.coffee-wrapper {
+    width: 100%;
+}
+
+.screen-1 {
+    display: flex;
+    overflow: hidden;
+    background: url("../images/screen-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-height: 1600px;
+    height: 100vh;
+}
+
+.heading {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.screen-1--wrapper {
+    display: flex;
+    width: 100%;
+    align-self: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+}
+
+.screen-2 {
+    display: flex;
+    align-self: center;
+    background: url("../images/screen-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    max-height: 1600px;
+    height: 100vh;
+}
+
+.screen-3 {
+    display: flex;
+    align-self: center;
+    width: 100%;
+    max-height: 1600px;
+    height: 100vh;
+    border-bottom: 2px black solid;
+}
+
+.screen-4 {
+    display: flex;
+    align-self: center;
+    width: 100%;
+    max-height: 1600px;
+    height: 100vh;
+}
+
+footer {
+    background-color: #191919;
+    
+    width: 100%;
+    font-size: 0.8em;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer p {
+   color: #b2b2b2;
+   margin-top: 16px;
+   margin-left: 16px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    margin: 8px;
+    margin-left: 16px;
+    color: #b2b2b2;
+}
+
+
+.feature {
+    width: 20%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 20px;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.feature img {
+    border-radius: 50%;
+}
+
+.nav-bar {
+    margin-left: 16px;
+}
+
+.links {
+    position: fixed;
+    list-style: none;
+    padding-left: 0;
+}
+
+.links li {
+    margin-top: 20px;
+}
+
+.links li:first-child {
+    margin-top: 0;
+}
+
+.coffee-header--logotype {
+    display: inline-block;
+    user-select: none;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    color: black;
+}
+
+.nav-links {
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    color: black;
+    text-decoration: none;
+}
+
+h3 {
+    display: inline-block;
+    white-space: normal;
+    user-select: none;
+    color: white;
+    font-size: 2.7em;
+}
+
+.content h3 {
+    min-width: 30%;
+    width: 60%;
+    max-width: 90%;
+}
+
+.feature-image {
+    width: 100px;
+    height: 100px;
+}
+
+.feature-heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.feature-description {
+    color: #191919;
+}
+
+.screen-4 .content {
+    width: 100%;
+    height: 90vh;
+}
+
+.map {
+    width: 90%;
+    height: 100%;
+}
+
+.footer-form {
+    box-sizing: border-box;
+    flex-direction: column;
+    width: 10%;
+}
+
+.footer-form input {
+    padding: 5px;
+    border: none;
+    width: 100%;
+}
+
+.footer-form textarea {
+    width: 100%;
+    height: auto;
+}

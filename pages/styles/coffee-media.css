@@ -1,0 +1,142 @@
+@media screen and (max-width: 700px) {
+    .screen-1 {
+        background-position: center;
+        height: 50vh;
+    }
+
+    .screen-2 {
+        background-position: center;
+        height: 50vh;
+    }
+
+    .screen-3 {
+        width: 100%;
+        margin-top: 10px;
+        height: auto;
+    }
+
+    .screen-4 {
+        height: 50vh;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .content {
+        flex-direction: column;
+        margin: 0;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .feature {
+        width: 80%;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .feature:last-child {
+        margin-bottom: 16px;
+    }
+
+    h3 {
+        font-size: 1.1em;
+        align-self: center;
+        text-align: center;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .screen-1 .screen-1--wrapper {
+        flex-direction: column-reverse;
+    }
+
+
+    .links {
+        top: 7%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .links li{
+        display: inline;
+    }
+
+    .svg-icon {
+        display: none;
+    }
+
+    .map {
+        width: 90%;
+        height: 45vh;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    p {
+        font-size: .8em;
+    }
+}
+
+@media screen and (min-width: 4000px) {
+    h3 {
+        font-size: 5em;
+    }
+
+    .map {
+        width: 90%;
+        height: 60vh;
+        margin: auto;
+    }
+
+    .links li {
+        font-size: 4em;
+    }
+
+    .svg-icon {
+        display: none;
+    }
+
+    .feature {
+        width: 20%;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .feature-heading {
+        font-size: 3.5em;
+    }
+
+    .nav-bar {
+        margin-left: 64px;
+    }
+
+    .feature-description {
+        font-size: 3em;
+    }
+
+    .feature-image {
+        width: 300px;
+        height: 300px;
+    }
+
+    .coffee-header--logotype {
+        font-size: 6em;
+    }
+
+    footer p {
+        font-size: 3em;
+    }
+
+    footer li {
+        font-size: 3em;
+    }
+}
