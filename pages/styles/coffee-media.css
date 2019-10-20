@@ -20,7 +20,9 @@
     }
 
     .heading {
+        top: 20px;
         text-align: center;
+        position: absolute;
     }
 
     .content {
@@ -49,7 +51,6 @@
     }
 
     .nav-bar {
-        flex-direction: column;
         margin-left: 0;
     }
 
@@ -59,13 +60,17 @@
 
 
     .links {
-        top: 70px;
+        position: fixed;
+        background-color: #fff;
+        top: 0;
+        padding-bottom: 10px;
         width: 100%;
         text-align: center;
     }
 
     .links li{
         display: inline;
+        justify-content: center;
     }
 
     .svg-icon {
