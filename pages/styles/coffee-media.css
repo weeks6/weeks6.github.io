@@ -85,7 +85,7 @@
     }
 }
 
-@media screen and (min-width: 4000px) {
+@media screen and (min-width: 2300px) {
     h3 {
         font-size: 5em;
     }
