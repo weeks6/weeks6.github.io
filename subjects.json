@@ -1,14 +1,22 @@
 {
     "subjects": [
         {
+            "day": 0,
             "name": "Math",
             "startTime": 900,
             "endTime": 945
         },
         {
+            "day": 0,
             "name": "IT",
             "startTime": 955,
             "endTime": 1040
-        }   
+        },
+        {
+            "day": 1,
+            "name": "Bruh",
+            "startTime": 955,
+            "endTime": 1040
+        }
     ]
 }
