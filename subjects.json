@@ -12,14 +12,39 @@
         },
         {
             "name": "Monday IT",
-            "startTime": 955,
-            "endTime": 1040
+            "startTime": 1050,
+            "endTime": 1135
         },
         {
             "name": "Monday Shit",
             "startTime": 900,
             "endTime": 945
-        }
+        },
+        {
+            "name": "Monday Shit",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Monday Shit",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Monday Shit",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Monday Shit",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Monday Shit",
+            "startTime": 900,
+            "endTime": 945
+        },
     ],
     "tuesday": [
         {
