@@ -1,76 +1,46 @@
 {
-    "subjects": [
+    "monday": [
         {
-            "day": 0,
-            "name": "Math",
+            "name": "Monday bruh",
             "startTime": 900,
             "endTime": 945
         },
         {
-            "day": 0,
-            "name": "IT",
+            "name": "Monday math",
             "startTime": 955,
             "endTime": 1040
         },
         {
-            "day": 1,
-            "name": "Bruh",
+            "name": "Monday IT",
             "startTime": 955,
             "endTime": 1040
         },
         {
-            "day": 0,
-            "name": "Math",
+            "name": "Monday Shit",
+            "startTime": 900,
+            "endTime": 945
+        }
+    ],
+    "tuesday": [
+        {
+            "name": "Tuesday bruh",
             "startTime": 900,
             "endTime": 945
         },
         {
-            "day": 0,
-            "name": "IT",
+            "name": "Tuesday math",
             "startTime": 955,
             "endTime": 1040
         },
         {
-            "day": 1,
-            "name": "Bruh",
+            "name": "Tuesday IT",
             "startTime": 955,
             "endTime": 1040
         },
         {
-            "day": 0,
-            "name": "Math",
+            "name": "Tuesday Shit",
             "startTime": 900,
             "endTime": 945
-        },
-        {
-            "day": 0,
-            "name": "IT",
-            "startTime": 955,
-            "endTime": 1040
-        },
-        {
-            "day": 1,
-            "name": "Bruh",
-            "startTime": 955,
-            "endTime": 1040
-        },
-        {
-            "day": 0,
-            "name": "Math",
-            "startTime": 900,
-            "endTime": 945
-        },
-        {
-            "day": 0,
-            "name": "IT",
-            "startTime": 955,
-            "endTime": 1040
-        },
-        {
-            "day": 1,
-            "name": "Bruh",
-            "startTime": 955,
-            "endTime": 1040
         }
     ]
 }
