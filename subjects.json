@@ -1,14 +1,71 @@
 {
-    "subjects": [
+    "monday": [
         {
-            "name": "Math",
+            "name": "Monday bruh",
             "startTime": 900,
             "endTime": 945
         },
         {
-            "name": "IT",
+            "name": "Monday math",
             "startTime": 955,
             "endTime": 1040
-        }   
+        },
+        {
+            "name": "Monday IT",
+            "startTime": 1050,
+            "endTime": 1135
+        },
+        {
+            "name": "Monday Shit",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Monday Shit",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Monday Shit",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Monday Shit",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Monday Shit",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Monday Shit",
+            "startTime": 900,
+            "endTime": 1488
+        }
+    ],
+    "tuesday": [
+        {
+            "name": "Tuesday bruh",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Tuesday math",
+            "startTime": 955,
+            "endTime": 1040
+        },
+        {
+            "name": "Tuesday IT",
+            "startTime": 955,
+            "endTime": 1040
+        },
+        {
+            "name": "Tuesday Shit",
+            "startTime": 900,
+            "endTime": 945
+        }
     ]
 }
