@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/medias.css">
+    <title>GreenHouse</title>
+</head>
+<body>
+    <div class="order" id="order">
+        <div class="order-wrapper">
+            <div class="order-card">
+                <div class="order-card__heading">
+                        <div class="order-card__text"> 
+                            <h1>We will contact <span>You</span> for additional info</h1>
+                        </div>
+                        <div class="cancel-order__wrapper" id="cancel">
+                            <div class="cancel-order"></div>
+                        </div>  
+                </div>
+                <form class="order-form" action="">
+                    <ul>
+                        <div class="ul-item">
+                            <li>
+                                <input type="text"id="name" value="" placeholder="" required>
+                                <label for="name">Name</label>
+                            </li>
+                        </div>
+                        <div class="ul-item">
+                            <li>
+                                <input type="email" id="email" value="" placeholder="" required>
+                                <label for="email">Email</label>
+                            </li>
+                        </div>
+                        <div class="ul-item">
+                            <li>
+                                <input type="tel" pattern="[\+]\d{1}[\(]\d{3}[\)]\d{3}\d{4}" id="tel" value="" placeholder=""  required>
+                                <label for="tel">Number</label>
+                            </li>
+                        </div>
+                        <div>
+                            <li><input type="submit" class="btn-order" value="Order"></li>
+                        </div>
+                    </ul>
+                </form>
+            </div>
+            </div>
+        </div>
+    <header>
+        <div class="header-wrapper">
+            <a class="home-link" href="./greenhouse.html">
+            <div class="logo-wrapper">
+                <div class="logo-wrapper__first">Green</div>
+                <div class="logo-wrapper__sec">House</div>
+            </div>
+            </a>
+        <nav class="nav-bar">
+            <ul class="nav-bar__links">
+                <li><a href="#second">About</a></li>
+                <li><a href="#order-screen">Order</a></li>
+                <li><a href="">Partnership</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <section class="first-screen">
+        <div class="half first">
+            <div class="content-card">
+                <h1><span>Eco</span> solution for your every day gardening!</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil aliquid molestias vero numquam quam autem. Neque hic nulla molestiae eligendi?</p>
+                <button class="btn-order" id="orderButton">Fast Order</button>
+                <a href="#order-screen" class="btn-order__secondary">Detailed Order</a>
+            </div>
+        </div>
+        <div class="half second">
+            <img src="./img/green.png" alt="">
+        </div>
+    </section>
+    <section class="second-screen" id="second">
+            <h1>What <span>You</span> will get</h1>
+        <div class="features">
+            <div class="feature-card">
+                <img src="./img/icon-placeholder.svg" alt="" class="icon">
+                <h1>feature</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi omnis voluptatibus ad recusandae non tempora quisquam totam nesciunt voluptatem perspiciatis?</p>
+            </div>
+            <div class="feature-card">
+                <img src="./img/icon-placeholder.svg" alt="" class="icon">
+                <h1>feature</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt possimus repellat quo, ab, ducimus animi magni eius et natus nesciunt sint delectus in! Eius quis maiores unde quam corporis quia!</p>
+            </div>
+            <div class="feature-card">
+                <img src="./img/icon-placeholder.svg" alt="" class="icon">
+                <h1>feature</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel impedit, sit sequi corporis nobis autem amet iusto, vero, sapiente consequatur voluptate praesentium! Quaerat, itaque quos fugiat eveniet sequi eum eaque odit quibusdam architecto? Quas ipsam nam impedit. Earum, quas magni.</p>
+            </div>
+        </div>
+    </section>
+    <section class="order-screen" id="order-screen">
+
+    </section>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

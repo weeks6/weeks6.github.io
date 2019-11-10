@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+
+    .order-wrapper {
+        margin-top: 4rem;
+        align-items: flex-start;
+    }
+
+    .first-screen {
+        padding-top: 4rem;
+        height: auto;
+    }
+
+    .half {
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .first {
+        height: auto;
+    }
+    
+    .second {
+        display: none;
+    }
+
+    .second-screen {
+        padding-top: 4rem;
+        height: auto;
+    }
+
+    .features {
+        width: 90%;
+        margin: 0;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .feature-card {
+        margin: 0;
+        margin-top: 2em;
+        width: 100%;
+    }
+}
