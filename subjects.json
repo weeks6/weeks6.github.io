@@ -67,5 +67,86 @@
             "startTime": 900,
             "endTime": 945
         }
+    ],
+    "wednesday": [
+        {
+            "name": "Wednesday bruh",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Wednesday math",
+            "startTime": 955,
+            "endTime": 1040
+        },
+        {
+            "name": "Wednesday IT",
+            "startTime": 955,
+            "endTime": 1040
+        },
+        {
+            "name": "Wednesday Shit",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Wednesday fuck",
+            "startTime": 900,
+            "endTime": 945
+        }
+    ],
+    "thursday": [
+        {
+            "name": "Thursday bruh",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Thursday math",
+            "startTime": 955,
+            "endTime": 1040
+        },
+        {
+            "name": "Thursday IT",
+            "startTime": 955,
+            "endTime": 1040
+        },
+        {
+            "name": "Thursday Shit",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Thursday fuck",
+            "startTime": 900,
+            "endTime": 945
+        }
+    ],
+    "friday": [
+        {
+            "name": "Friday bruh",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Friday math",
+            "startTime": 955,
+            "endTime": 1040
+        },
+        {
+            "name": "Friday IT",
+            "startTime": 955,
+            "endTime": 1040
+        },
+        {
+            "name": "Friday Shit",
+            "startTime": 900,
+            "endTime": 945
+        },
+        {
+            "name": "Friday fuck",
+            "startTime": 900,
+            "endTime": 945
+        }
     ]
 }
