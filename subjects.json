@@ -1,152 +1,192 @@
 {
     "monday": [
         {
-            "name": "Monday bruh",
+            "name": "Элементы высшей математики",
             "startTime": 900,
             "endTime": 945
         },
         {
-            "name": "Monday math",
+            "name": "Элементы высшей математики",
             "startTime": 955,
             "endTime": 1040
         },
         {
-            "name": "Monday IT",
+            "name": "Информационные технологии",
             "startTime": 1050,
             "endTime": 1135
         },
         {
-            "name": "Monday Shit",
-            "startTime": 900,
-            "endTime": 945
+            "name": "Информационные технологии",
+            "startTime": 1150,
+            "endTime": 1235
         },
         {
-            "name": "Monday Shit",
-            "startTime": 900,
-            "endTime": 945
+            "name": "Операционные системы",
+            "startTime": 1250,
+            "endTime": 1335
         },
         {
-            "name": "Monday Shit",
-            "startTime": 900,
-            "endTime": 945
+            "name": "Операционные системы",
+            "startTime": 1350,
+            "endTime": 1435
         },
         {
-            "name": "Monday Shit",
-            "startTime": 900,
-            "endTime": 945
+            "name": "Информационные технологии",
+            "startTime": 1445,
+            "endTime": 1530
         },
         {
-            "name": "Monday Shit",
-            "startTime": 900,
-            "endTime": 945
-        },
-        {
-            "name": "Monday Shit",
-            "startTime": 900,
-            "endTime": 1488
+            "name": "Менеджмент",
+            "startTime": 1540,
+            "endTime": 1625
         }
     ],
     "tuesday": [
         {
-            "name": "Tuesday bruh",
+            "name": "Основы алгоритмизации",
             "startTime": 900,
             "endTime": 945
         },
         {
-            "name": "Tuesday math",
+            "name": "Основы алгоритмизации",
             "startTime": 955,
             "endTime": 1040
         },
         {
-            "name": "Tuesday IT",
-            "startTime": 955,
-            "endTime": 1040
+            "name": "Английский язык",
+            "startTime": 1050,
+            "endTime": 1135
         },
         {
-            "name": "Tuesday Shit",
-            "startTime": 900,
-            "endTime": 945
+            "name": "Английский язык",
+            "startTime": 1150,
+            "endTime": 1235
+        },
+        {
+            "name": "Теория вероятности",
+            "startTime": 1250,
+            "endTime": 1335
+        },
+        {
+            "name": "Теория вероятности",
+            "startTime": 1350,
+            "endTime": 1435
+        },
+        {
+            "name": "Управление проектами",
+            "startTime": 1445,
+            "endTime": 1530
+        },
+        {
+            "name": "Управление проектами",
+            "startTime": 1540,
+            "endTime": 1625
         }
     ],
     "wednesday": [
         {
-            "name": "Wednesday bruh",
+            "name": "Управление проектами",
             "startTime": 900,
             "endTime": 945
         },
         {
-            "name": "Wednesday math",
+            "name": "Управление проектами",
             "startTime": 955,
             "endTime": 1040
         },
         {
-            "name": "Wednesday IT",
-            "startTime": 955,
-            "endTime": 1040
+            "name": "Физкультура",
+            "startTime": 1050,
+            "endTime": 1135
         },
         {
-            "name": "Wednesday Shit",
-            "startTime": 900,
-            "endTime": 945
+            "name": "Физкультура",
+            "startTime": 1150,
+            "endTime": 1235
         },
         {
-            "name": "Wednesday fuck",
-            "startTime": 900,
-            "endTime": 945
+            "name": "Операционные системы",
+            "startTime": 1250,
+            "endTime": 1335
+        },
+        {
+            "name": "Операционные системы",
+            "startTime": 1350,
+            "endTime": 1435
+        },
+        {
+            "name": "Управление проектами",
+            "startTime": 1445,
+            "endTime": 1530
         }
     ],
     "thursday": [
         {
-            "name": "Thursday bruh",
+            "name": "Психология",
             "startTime": 900,
             "endTime": 945
         },
         {
-            "name": "Thursday math",
+            "name": "Менеджмент",
             "startTime": 955,
             "endTime": 1040
         },
         {
-            "name": "Thursday IT",
-            "startTime": 955,
-            "endTime": 1040
+            "name": "Менеджмент",
+            "startTime": 1050,
+            "endTime": 1135
         },
         {
-            "name": "Thursday Shit",
-            "startTime": 900,
-            "endTime": 945
+            "name": "Менеджмент",
+            "startTime": 1150,
+            "endTime": 1235
         },
         {
-            "name": "Thursday fuck",
-            "startTime": 900,
-            "endTime": 945
+            "name": "Теория вероятности",
+            "startTime": 1250,
+            "endTime": 1335
+        },
+        {
+            "name": "Элементы высшей математики",
+            "startTime": 1350,
+            "endTime": 1435
+        },
+        {
+            "name": "основы алгоритмизации",
+            "startTime": 1445,
+            "endTime": 1530
+        },
+        {
+            "name": "Психология",
+            "startTime": 1540,
+            "endTime": 1625
         }
     ],
     "friday": [
         {
-            "name": "Friday bruh",
+            "name": "Управление проектами",
             "startTime": 900,
             "endTime": 945
         },
         {
-            "name": "Friday math",
+            "name": "Информационные технологии",
             "startTime": 955,
             "endTime": 1040
         },
         {
-            "name": "Friday IT",
-            "startTime": 955,
-            "endTime": 1040
+            "name": "Информационные технологии",
+            "startTime": 1050,
+            "endTime": 1135
         },
         {
-            "name": "Friday Shit",
-            "startTime": 900,
-            "endTime": 945
+            "name": "Психология",
+            "startTime": 1150,
+            "endTime": 1235
         },
         {
-            "name": "Friday fuck",
-            "startTime": 900,
-            "endTime": 945
+            "name": "Информационные технологии",
+            "startTime": 1250,
+            "endTime": 1335
         }
     ]
 }
