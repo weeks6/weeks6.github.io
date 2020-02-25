@@ -1,18 +1,18 @@
 [
   {
-    id: 0,
-    text: task1
+    "id": 0,
+    "text": "task1"
   },
   {
-    id: 1,
-    text: task2
+    "id": 1,
+    "text": "task2"
   },
   {
-    id: 2,
-    text: task3
+    "id": 2,
+    "text": "task3"
   },
   {
-    id: 3,
-    text: task4
-  },
+    "id": 3,
+    "text": "task4"
+  }
 ]
