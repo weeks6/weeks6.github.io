@@ -109,20 +109,6 @@ html {
     color: #fff;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 39px;
-}
-
-.footer-text {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 0.875em;
-    line-height: 1.0625em;
-    color: #333333;
-}
-
 @media screen and (max-width: 1200px) {
     
     .hero-section {

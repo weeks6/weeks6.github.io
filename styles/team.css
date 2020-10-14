@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+.container {
+    margin: 0 auto;
+    width: 65%;
+}
+
+.title {
+    min-width: 40%;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    color: #000000;
+}
+
+.header {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details {
+    max-width: 45%;
+}
+
+.details-heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.details-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.member-img-role {
+    position: relative;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.member-card {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    max-width: 30%;
+}
+
+.member-card:nth-child(3n+2) {
+    margin-top: 100px;
+}
+
+.member-image {
+    display: block;
+    width: 238px;
+    max-width: 100%;
+    transition: all .5s ease-in-out ;
+}
+
+.image-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.image-container::after {
+    content: '';
+    display: block;
+    width: 500px;
+    height: 500px;
+    transform-origin: center;
+    top: 25%;
+    left: 25%;
+    transform: scale(0);
+    background-color: #FF6D5B5e;
+    position: absolute;
+    border-radius: 100%;
+    transition: all ease-in-out .5s;
+}
+
+.image-container:hover::after {
+    transform: scale(2);
+}
+
+.member-image:hover {
+    transform: scale(1.1);
+}
+
+.member-role {
+    position: absolute;
+    top: 0;
+    left: 108%;
+    width: 100%;
+    font-family: 'PT Serif', serif;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #000000;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+}
+
+.member-name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 950px) {
+
+    .container {
+        width: 100%;
+        max-width: 95%;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+
+    .title {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .details {
+        margin-top: 36px;
+        justify-content: space-around;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .details-text {
+        font-size: 18px;
+    }
+
+    .member-card {
+        width: 47%;
+        max-width: 47%;
+        height: auto;
+    }
+
+    .image-container {
+        position: relative;
+        width: 95%;
+    }
+
+    .member-image {
+        /* width: 138px; */
+        max-width: 95%;
+    }
+
+    .member-role {
+        font-size: 10px;
+        line-height: 13px;
+        left: 108%;
+    }
+
+    .member-name {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .member-card:nth-child(3n+2) {
+        margin-top: 0;
+    }
+
+    .member-card:nth-child(2n) {
+        margin-top: 32px;
+    }
+}
