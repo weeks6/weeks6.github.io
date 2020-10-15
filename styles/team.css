@@ -60,12 +60,14 @@ body {
 }
 
 .member-img-role {
+    /* hack to turn off the tap on chrome */
+    -webkit-tap-highlight-color: none;
+
     position: relative;
     display: flex;
     align-self: flex-start;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 .member-card {
@@ -84,7 +86,9 @@ body {
     display: block;
     width: 238px;
     max-width: 100%;
-    transition: all .5s ease-in-out ;
+    transition: all .5s ease-in-out;
+    /* hack to turn off the tap on chrome */
+    -webkit-tap-highlight-color: none;
 }
 
 .image-container {
@@ -93,6 +97,9 @@ body {
     width: 100%;
     margin: 0 auto;
     cursor: pointer;
+
+    /* hack to turn off the tap on chrome */
+    -webkit-tap-highlight-color: none;
 }
 
 .image-container::after {
@@ -108,6 +115,8 @@ body {
     position: absolute;
     border-radius: 100%;
     transition: all ease-in-out .5s;
+    /* hack to turn off the tap on chrome */
+    -webkit-tap-highlight-color: none;
 }
 
 .image-container:hover::after {
@@ -176,12 +185,7 @@ body {
 
     .image-container {
         position: relative;
-        width: 95%;
-    }
-
-    .member-image {
-        /* width: 138px; */
-        max-width: 95%;
+        width: 100%;
     }
 
     .member-role {
