@@ -60,14 +60,14 @@ body {
 }
 
 .member-img-role {
-    /* hack to turn off the tap on chrome */
-    -webkit-tap-highlight-color: none;
-
     position: relative;
     display: flex;
     align-self: flex-start;
     justify-content: center;
     align-items: center;
+
+    /* turning off the tap color on chrome for better mobile experience*/
+    -webkit-tap-highlight-color: transparent;
 }
 
 .member-card {
@@ -87,8 +87,6 @@ body {
     width: 238px;
     max-width: 100%;
     transition: all .5s ease-in-out;
-    /* hack to turn off the tap on chrome */
-    -webkit-tap-highlight-color: none;
 }
 
 .image-container {
@@ -97,9 +95,6 @@ body {
     width: 100%;
     margin: 0 auto;
     cursor: pointer;
-
-    /* hack to turn off the tap on chrome */
-    -webkit-tap-highlight-color: none;
 }
 
 .image-container::after {
@@ -115,17 +110,17 @@ body {
     position: absolute;
     border-radius: 100%;
     transition: all ease-in-out .5s;
-    /* hack to turn off the tap on chrome */
-    -webkit-tap-highlight-color: none;
 }
 
-.image-container:hover::after {
+.image-container:hover > .member-image {
+    transform: scale(1.1);
+}
+
+.image-container:hover.image-container::after {
     transform: scale(2);
 }
 
-.member-image:hover {
-    transform: scale(1.1);
-}
+
 
 .member-role {
     position: absolute;
@@ -158,6 +153,7 @@ body {
     }
 
     .header {
+        padding-top: 17px;
         flex-direction: column;
     }
 
