@@ -14,3 +14,12 @@ footer {
     line-height: 1.0625em;
     color: #333333;
 }
+
+.home-link {
+    color: #333333;
+    text-decoration: none;
+}
+
+.home-link:hover {
+    color: #FF6D5B;
+}
